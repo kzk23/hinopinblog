@@ -11,13 +11,15 @@
     </div>
 
     <div class="overlay"></div>
-    <div class="absolute top-32 left-32 text-white">
+    <div class="absolute top-32 left-32 right-32 text-white">
       <a href="https://www.instagram.com/hinopin.0203"><Logo /></a>
-      <div class="mt-16 -mb-3 flex flex-col uppercase text-sm">
-        <h1 class="text-4xl font-bold">
-          {{ articles[0].author.name }}
-        </h1>
-        <p class="mb-4">{{ articles[0].author.bio }}</p>
+      <div class="mt-16 -mb-3 flex flex-col text-sm">
+        <div class="relative lg:w-1/2 xs:w-full xs:h-84 lg:h-full post-left">
+          <h1 class="text-4xl font-bold uppercase">
+            {{ articles[0].author.name }}
+          </h1>
+          <p class="mb-4 uppercase">{{ articles[0].author.bio }}</p>
+        </div>
       </div>
     </div>
     <div

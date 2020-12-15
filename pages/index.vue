@@ -23,14 +23,14 @@
         href="https://www.instagram.com/hinopin.0203"
         style="margin-right: 10px; margin-left: 20px"
       >
-        <i class="fab fa-instagram fa-2x faa-horizontal animated"></i>
+        <i class="fab fa-instagram fa-2x faa-wrench animated"></i>
       </a>
       <a
         class="icon"
         href="https://www.youtube.com/channel/UCvpJwJPTWm4CjZAohluNOhw"
         style="margin-right: 10px; margin-left: 20px"
       >
-        <i class="fab fa-youtube fa-2x faa-wrench animated"></i>
+        <i class="fab fa-youtube fa-2x faa-horizontal animated"></i>
       </a>
       <a
         class="icon"

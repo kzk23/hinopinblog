@@ -72,9 +72,9 @@ export default {
     '@nuxtjs/dayjs',
     '@nuxtjs/sitemap',
     [
-      '@nuxtjs/google-analytics',
+      '@nuxtjs/google-adsense',
       {
-        id: 'UA-185639793-1'
+        id: 'ca-pub-9731646793848693'
       }
     ]
   ],
