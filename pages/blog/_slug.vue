@@ -119,6 +119,28 @@ export default {
       next
     }
   },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.article.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.article.description
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://www.hinopin.com/blog/' + this.article.alt
+        },
+        { hid: 'og:image', property: 'og:image', content: this.article.img }
+      ]
+    }
+  },
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }

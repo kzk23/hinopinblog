@@ -40,21 +40,21 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content:
-          'https://photos.google.com/u/3/share/AF1QipOEdun-lTIG8scoZgt0-cwPTBTX5d4FFMFUQMEIROl4VhcIxh8FHm-Z01Fwrf9IFQ/photo/AF1QipMxlFCXMnkaYHbGXtl3JewbNmB4SURMMOyEj44A?key=SnFUU0tDa2UzMWRzbUdPYVBLWk00MGV1SXN2cTJR'
+          'https://user-images.githubusercontent.com/45329260/102309991-674e2a00-3fad-11eb-9940-662866ae7b8e.jpg'
       },
-      { name: 'twitter:card', content: 'summary_large_image' }
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { property: 'fb:app_id', content: '797068250841399' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    // Fontawesomeを読み込むために追加
-    script: [{ src: 'https://kit.fontawesome.com/4fabd64d96.js' }],
-    // fontawesomenのアニメーション
     link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
           'https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css'
       }
-    ]
+    ],
+    // Fontawesomeを読み込むために追加
+    script: [{ src: 'https://kit.fontawesome.com/4fabd64d96.js' }]
   },
   /*
    ** Global CSS
