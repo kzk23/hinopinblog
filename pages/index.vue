@@ -23,7 +23,7 @@
         href="https://www.instagram.com/hinopin.0203"
         style="margin-right: 10px; margin-left: 20px"
       >
-        <i class="fab fa-instagram fa-2x faa-wrench animated"></i>
+        <i class="fab fa-instagram fa-2x faa- animated"></i>
       </a>
       <a
         class="icon"
@@ -38,6 +38,13 @@
         style="margin-right: 10px; margin-left: 20px"
       >
         <i class="fab fa-tiktok fa-2x faa-spin animated"></i>
+      </a>
+      <a
+        class="icon"
+        href="https://github.com/kzk23"
+        style="margin-right: 10px; margin-left: 20px"
+      >
+        <i class="fab fa-github fa-2x faa-wrench animated"></i>
       </a>
       <br />
       <br />

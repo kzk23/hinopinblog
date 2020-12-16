@@ -5,7 +5,7 @@ img: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3f
 alt: my first blog post
 author: 
   name: hinopin
-  bio: 好奇心が旺盛で色んなことに興味が沸きます。知識をインプットすることが好きなのですが逆にアウトプットすることが苦手なのでアウトプットする練習の場としてこのBlogを始めました。
+  bio: 好奇心が旺盛で色んなことに興味が沸きます。知識をインプットすることが好きなのですが逆にアウトプットすることが苦手なのでアウトプットする場としてこのBlogを始めました。
   img: https://user-images.githubusercontent.com/45329260/102092181-1fbb8700-3e63-11eb-9c31-7d6f4f3ffcde.jpg
 tags: 
 ---

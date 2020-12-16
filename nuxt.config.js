@@ -22,7 +22,27 @@ export default {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
-      }
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'hinopin blog'
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://www.hinopin.com' },
+      { hid: 'og:title', property: 'og:title', content: 'hinopin blog' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'print("hello,my world")'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://photos.google.com/u/3/share/AF1QipOEdun-lTIG8scoZgt0-cwPTBTX5d4FFMFUQMEIROl4VhcIxh8FHm-Z01Fwrf9IFQ/photo/AF1QipMxlFCXMnkaYHbGXtl3JewbNmB4SURMMOyEj44A?key=SnFUU0tDa2UzMWRzbUdPYVBLWk00MGV1SXN2cTJR'
+      },
+      { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     // Fontawesomeを読み込むために追加
