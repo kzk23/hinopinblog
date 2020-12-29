@@ -3,18 +3,16 @@
     <NuxtLink
       :to="`/blog/author/${author.name}`"
       class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
+      style="text-decoration: none"
     >
       <img
         v-if="author.img"
-        class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
-        style="border-top-left-radius: 10px; border-top-right-radius: 10px"
+        class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
         :src="author.img"
       />
-      <div class="flex flex-col m-4">
-        <h4 class="font-semibold">Author</h4>
-
+      <div class="flex flex-col m-4 text-black">
         <p>{{ author.name }}</p>
-        <p>{{ author.bio }}</p>
+        <p class="font-bold text-gray-600 text-sm">{{ author.bio }}</p>
       </div>
     </NuxtLink>
   </div>

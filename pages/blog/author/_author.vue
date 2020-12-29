@@ -23,7 +23,7 @@
       </div>
     </div>
     <div
-      class="relative xs:py-8 xs:px-8 lg:py-32 lg:px-16 lg:w-1/2 xs:w-full h-full overflow-y-scroll markdown-body post-right custom-scroll"
+      class="relative xs:py-8 xs:px-8 lg:py-32 lg:px-16 lg:w-1/2 xs:w-full h-full overflow-y-scroll post-right custom-scroll"
     >
       <NuxtLink to="/"
         ><p class="hover:underline">Back to All Articles</p></NuxtLink
@@ -40,23 +40,20 @@
           <NuxtLink
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
             class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
+            style="text-decoration: none"
           >
             <img
               v-if="article.img"
-              class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
-              style="
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
-              "
+              class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
               :src="article.img"
               :alt="article.alt"
             />
 
             <div
-              class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
+              class="p-8 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
             >
-              <h2 class="font-bold">{{ article.title }}</h2>
-              <p>{{ article.description }}</p>
+              <h3 class="font-bold text-black">{{ article.title }}</h3>
+              <p class="text-black text-sm">{{ article.description }}</p>
               <p class="font-bold text-gray-600 text-sm">
                 {{ formatDate(article.updatedAt) }}
               </p>
@@ -92,3 +89,15 @@ export default {
   }
 }
 </script>
+<style class="postcss">
+.article-card {
+  border-radius: 8px;
+}
+.article-card a {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.article-card img div {
+  border-radius: 8px 0 0 8px;
+}
+</style>

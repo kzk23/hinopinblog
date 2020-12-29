@@ -2,7 +2,7 @@
   <div class="m-8">
     <div class="content has-text-centered">
       <h1>
-        <strong>&nbsp;&nbsp;#hinopin blog</strong>
+        <strong>&nbsp;&nbsp;&#128205;hinopin blog</strong>
       </h1>
       <p>
         <strong>&nbsp;&nbsp;&nbsp;print("hello, my world")</strong>
@@ -13,7 +13,7 @@
       <p>&nbsp;&nbsp;↓</p>
       <a
         class="icon"
-        href="https://www.twitter.com/KzkTweet"
+        href="https://www.twitter.com/hinopin23"
         style="margin-right: 10px; margin-left: 20px"
       >
         <i class="fab fa-twitter fa-2x faa-vertical animated"></i>
@@ -23,7 +23,7 @@
         href="https://www.instagram.com/hinopin.0203"
         style="margin-right: 10px; margin-left: 20px"
       >
-        <i class="fab fa-instagram fa-2x faa- animated"></i>
+        <i class="fab fa-instagram fa-2x faa-tada animated"></i>
       </a>
       <a
         class="icon"
@@ -62,16 +62,16 @@
         >
           <img
             v-if="article.img"
-            class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
-            style="border-top-left-radius: 10px; border-top-right-radius: 10px"
+            decoding="async"
+            class="flex h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
             :src="article.img"
           />
 
           <div
-            class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
+            class="p-8 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
           >
-            <h1 class="font-bold">{{ article.title }}</h1>
-            <p>by {{ article.author.name }}</p>
+            <h1 class="font-bold text-black">{{ article.title }}</h1>
+            <p class="text-black">by {{ article.author.name }}</p>
             <p class="font-bold text-gray-600 text-sm">
               {{ article.description }}
             </p>

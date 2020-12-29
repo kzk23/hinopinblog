@@ -1,9 +1,12 @@
+const GAID = 'UA-185639793-1'
+const GAcode = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GAID}');`
+
 export default {
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'universal',
+  ssr: 'true',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -53,13 +56,26 @@ export default {
           'https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css'
       }
     ],
-    // Fontawesomeを読み込むために追加
-    script: [{ src: 'https://kit.fontawesome.com/4fabd64d96.js' }]
+    script: [
+      { src: 'https://kit.fontawesome.com/4fabd64d96.js' },
+      {
+        hid: 'GAsrc',
+        src: 'https://www.googletagmanager.com/gtag/js?id=' + GAID
+      },
+      {
+        hid: 'GAcode',
+        innerHTML: GAcode
+      }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+      GAsrc: ['innerHTML'],
+      GAcode: ['innerHTML']
+    }
   },
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['github-markdown-css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -79,7 +95,9 @@ export default {
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // pwa
+    '@nuxtjs/pwa'
   ],
   /*
    ** Nuxt.js modules
@@ -89,7 +107,6 @@ export default {
     '@nuxt/content',
     ['@nuxtjs/bulma', { css: false }],
     ['nuxt-buefy', { css: false }],
-    '@nuxtjs/dayjs',
     '@nuxtjs/sitemap',
     [
       '@nuxtjs/google-adsense',
@@ -118,6 +135,18 @@ export default {
 
       return articles.map((article) => article.path)
     }
+  },
+  pwa: {
+    meta: {
+      appleStatusBarStyle: 'black-translucent',
+      mobileAppIOS: true
+    }
+  },
+  bluma: {
+    defaultAssets: false
+  },
+  buefy: {
+    defaultAssets: false
   },
   /*
    ** Build configuration

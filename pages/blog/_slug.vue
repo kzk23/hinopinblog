@@ -5,7 +5,6 @@
     <div class="relative lg:w-1/2 xs:w-full xs:h-84 lg:h-full post-left">
       <img
         :src="article.img"
-        ç
         :alt="article.alt"
         class="absolute h-full w-full object-cover"
       />
@@ -20,7 +19,8 @@
           <p>{{ article.author.name }}</p>
         </div>
         <br />
-        <h1 class="text-4xl font-bold">{{ article.title }}</h1>
+        <h1 class="text-3xl font-bold">{{ article.title }}</h1>
+        <br />
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
@@ -64,37 +64,15 @@
         </ul>
       </nav>
       <!-- content from markdown -->
-      <nuxt-content :document="article" />
+      <nuxt-content class="markdown-body" :document="article" />
+      <br />
+      <br />
       <!-- content author component -->
       <author :author="article.author" />
+      <br />
+      <br />
       <!-- prevNext component -->
       <PrevNext :prev="prev" :next="next" class="mt-8" />
-      <div id="disqus_thread"></div>
-      <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-        ;(function () {
-          // DON'T EDIT BELOW THIS LINE
-          var d = document,
-            s = d.createElement('script')
-          s.src = 'https://hinopinblog.disqus.com/embed.js'
-          s.setAttribute('data-timestamp', +new Date())
-          ;(d.head || d.body).appendChild(s)
-        })()
-      </script>
-      <noscript
-        >Please enable JavaScript to view the
-        <a href="https://disqus.com/?ref_noscript"
-          >comments powered by Disqus.</a
-        ></noscript
-      >
     </div>
   </article>
 </template>
@@ -149,23 +127,15 @@ export default {
   }
 }
 </script>
-<style>
-.nuxt-content p {
-  margin-bottom: 20px;
+<style class="postcss">
+.article-card {
+  border-radius: 8px;
 }
-.nuxt-content h2 {
-  font-weight: bold;
-  font-size: 28px;
+.article-card a {
+  background-color: #fff;
+  border-radius: 8px;
 }
-.nuxt-content h3 {
-  font-weight: bold;
-  font-size: 22px;
-}
-.icon.icon-link {
-  background-image: url('~assets/svg/icon-hashtag.svg');
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-size: 20px 20px;
+.article-card img div {
+  border-radius: 8px 0 0 8px;
 }
 </style>
