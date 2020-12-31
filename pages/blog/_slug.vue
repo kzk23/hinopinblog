@@ -7,6 +7,8 @@
         :src="article.img"
         :alt="article.alt"
         class="absolute h-full w-full object-cover"
+        decoding="async"
+        loading="lazy"
       />
       <div class="overlay"></div>
       <div class="absolute top-32 left-32 text-white">
@@ -43,7 +45,7 @@
       <p class="pb-4">Post last updated: {{ formatDate(article.updatedAt) }}</p>
       <!-- table of contents -->
       <nav class="pb-6">
-        <ul>
+        <ul class="sample">
           <li
             v-for="link of article.toc"
             :key="link.id"
@@ -137,5 +139,31 @@ export default {
 }
 .article-card img div {
   border-radius: 8px 0 0 8px;
+}
+
+.markdown-body ul li {
+  list-style-type: circle;
+}
+.markdown-body ol li {
+  list-style-type: decimal;
+}
+ul.sample li {
+  margin-left: 20px;
+  list-style-type: none;
+}
+.iframeWrapper {
+  position: relative;
+}
+.iframeWrapper::before {
+  content: '';
+  display: inline-block;
+  padding-top: 56.25%;
+}
+.iframeWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

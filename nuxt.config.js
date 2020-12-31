@@ -105,8 +105,8 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
-    ['@nuxtjs/bulma', { css: false }],
-    ['nuxt-buefy', { css: false }],
+    '@nuxtjs/bulma',
+    'nuxt-buefy',
     '@nuxtjs/sitemap',
     [
       '@nuxtjs/google-adsense',
@@ -148,6 +148,16 @@ export default {
   buefy: {
     defaultAssets: false
   },
+  markdown: {
+    lineNumbers: true,
+    linkify: true,
+    config: (md) => {
+      md.use(
+        require('markdown-it-footnote', 'markdown-it-abbr', 'markdown-it-mark', 'markdown-it-video', 'markdown-it-block-embed')
+      )
+    }
+  },
+
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

@@ -62,9 +62,10 @@
         >
           <img
             v-if="article.img"
-            decoding="async"
             class="flex h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
             :src="article.img"
+            decoding="async"
+            loading="lazy"
           />
 
           <div

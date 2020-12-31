@@ -9,6 +9,8 @@
         v-if="author.img"
         class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
         :src="author.img"
+        decoding="async"
+        loading="lazy"
       />
       <div class="flex flex-col m-4 text-black">
         <p>{{ author.name }}</p>

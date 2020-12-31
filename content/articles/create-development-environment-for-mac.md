@@ -1,12 +1,11 @@
 ---
 title: MacでPycharm開発環境の構築(Django)
 description: Webアプリを作成するために最初に行ったこと
-img: https://drive.google.com/uc?export=view&id=1eZP_K4Zqeh4G7YHDjQNfpiO9K--P43cV
-alt: create-development-environment-for-mac
+img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292036/hinopin-blog/create-development-environment-for-mac_j6rh67.webp
 author: 
   name: hinopin
   bio: 好奇心が旺盛で色んなことに興味が沸きます。知識をインプットすることが好きなのですが逆にアウトプットすることが苦手なのでアウトプットする場としてこのBlogを始めました。
-  img: https://drive.google.com/uc?export=view&id=1y0STLOe9L05lPE8qNHxbV5O1OMzsyW_M
+  img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292036/hinopin-blog/auther_hinopin_wpmkll.webp
 tags: 
 ---
 

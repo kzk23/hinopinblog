@@ -1,25 +1,29 @@
 ---
 title: 「スタンフォード式 最高の睡眠」を読んで
 description: 睡眠を見直していきたいと思いました
-img: https://drive.google.com/uc?export=view&id=1q2-rG7TOGTH5poR4q2If-BT0s9eMBfWF
+img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292037/hinopin-blog/the-stanford-method-for-ultimate-sound-sleep_xtaieg.webp
 alt: the-stanford-method-for-ultimate-sound-sleep
 author: 
   name: hinopin
   bio: 好奇心が旺盛で色んなことに興味が沸きます。知識をインプットすることが好きなのですが逆にアウトプットすることが苦手なのでアウトプットする場としてこのBlogを始めました。
-  img: https://drive.google.com/uc?export=view&id=1y0STLOe9L05lPE8qNHxbV5O1OMzsyW_M
+  img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292036/hinopin-blog/auther_hinopin_wpmkll.webp
 tags: 
   - reading
 ---
 ![最高の睡眠](https://user-images.githubusercontent.com/45329260/103090013-31571880-4633-11eb-9740-34a15d6436f8.jpg)
 
 ## 導入
-**睡眠不足はその日のパフォーマンスの一時的な低下のみならず、「睡眠負債」と呼ばれる睡眠の借金のようなものが蓄積されていくことで生活習慣病のような慢性的にも健康に影響を及ぼす。**
-
-* **眠らないと、「インスリン」の分泌が悪くなって血糖値が高くなり、糖尿病になる**
+**睡眠不足はその日のパフォーマンスの一時的な低下のみならず、「睡眠負債」と呼ばれる睡眠の借金のようなものが蓄積されていくことで生活習慣病のような慢性的にも健康に影響を及ぼす。**  
+  
+    
+      
+1. 眠らないと、「インスリン」の分泌が悪くなって血糖値が高くなり、糖尿病になる
 2. 眠らないと、食べ過ぎを抑制する「レプチン」というホルモンが出ず、太る
-- 眠らないと、食欲が増す「グレリン」というホルモンが出るため、太る
-- 眠らないと、交感神経の緊張状態が続いて高血圧になる
-- 眠らないと、精神が不安定になり、うつ病、不安障害、アルコール依存、薬物依存の発症率が高くなる
+* 眠らないと、食欲が増す「グレリン」というホルモンが出るため、太る
+* 眠らないと、交感神経の緊張状態が続いて高血圧になる
+* 眠らないと、精神が不安定になり、うつ病、不安障害、アルコール依存、薬物依存の発症率が高くなる
+
+
 
 このような生活習慣病を誘発することから睡眠が大事なのは明確です。でも日本では全く重要視されていない現状があり、日本は平均睡眠時間6時間程度と各国と比較してみてもすば抜けて低くなっています。
 
@@ -27,15 +31,15 @@ tags:
 
 ## 睡眠の役割
 ここで睡眠の役割についておさらいしておく。大きく分けて5つある。
-* 脳と体に休息を与える
+### 脳と体に休息を与える
 活動モードの「交感神経」ではなくリラックスモードの「副交感神経」に優位にする。この時の切り替えがスムーズでないと「質」の睡眠は得られない。
-- 「記憶」を整理して定着させる
+###「記憶」を整理して定着させる
 レム睡眠はエピソード記憶（いつどこで何をしたか）が固定する。一方ノンレム睡眠は嫌な記憶を消去したり、意識せず覚えられることを固定する。と一般的に言われている。新生児はレム睡眠の割合が極端に大きいことから脳の発達に関係しているのではないかと盛んに研究されている。
-* 「ホルモンバランス」を調整する
+### 「ホルモンバランス」を調整する
 前述したホルモンの調整機能や加えて最初の90分の睡眠では成長ホルモンであるグロースホルモン、生殖や母性行動に関与するプロラクチンなどのホルモンの分泌も多くなる。
-* 「免疫力」を上げて病気を遠ざける
+### 「免疫力」を上げて病気を遠ざける
 睡眠が取れず、ホルモンバランスが悪くなることは免疫力にも影響を及ぼす。
-* 「脳の老廃物」をとる
+### 「脳の老廃物」をとる
 覚醒時にたまる脳の老廃物は「脳脊髄液」という脳の保護液の循環によって外部に排出される。例えばアルツハイマー病の原因物質となる「アミロイドβ」もこの脳の老廃物の一種として考えられる。
 
 ## 睡眠のメカニズム
@@ -50,7 +54,7 @@ tags:
 * 寝ているだけで「自律神経」が整うこと
 自律神経の不調は体ばかりが心の病気の原因にもなりうる。頭痛、ストレス、疲労感、イライラ、肩こり、冷え性など、「何となく調子が悪い」という違和感の根っこには、自律神経の乱れがあることが多いことがわかっている。
 
-* 「グロースホルモン」が分泌すること
+* 「グロースホルモン」が分泌すること[^1]睡眠不足は==その日のパフォーマンス==の
 数あるホルモンの中でもグロースホルモンは第一周期のノンレム睡眠際立って多く(70~80%)分泌されることが報告されている。グロースホルモンは主に子供の成長に関わっているが、成人の場合でも細胞の成長や新陳代謝促進、皮膚の柔軟性アップや、アンチエイジングの役割も果たすと言われている。
 
 * 「脳のコンディション」が良くこと
@@ -80,8 +84,11 @@ tags:
 
 特に睡眠から起きるととに重要なポイントになってくる「光」と「体温」に関してはIotを駆使し、照明や空調設備などを制御することで自分だけの最適な環境を実現することができるのではないかと思いました。自分のこれからやってみたいことリストに追加しておこうと思います。
 
+[^1]: これは一つ目の注釈です。
+
 見ていただきありがとうございました。どんなコメントや感想もお待ちしております。
 
 hinopin
 
 <div class="cstmreba"><div class="booklink-box"><div class="booklink-image"><a href="https://hb.afl.rakuten.co.jp/hgc/1e3a2654.1f6d69f4.1e3a2655.66c60894/yomereba_main_202012291716487218?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F14657717%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" rel="nofollow" ><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/6015/9784763136015.jpg?_ex=200x200" style="border: none;" /></a></div><div class="booklink-info"><div class="booklink-name"><a href="https://hb.afl.rakuten.co.jp/hgc/1e3a2654.1f6d69f4.1e3a2655.66c60894/yomereba_main_202012291716487218?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F14657717%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" rel="nofollow" >スタンフォード式最高の睡眠</a><div class="booklink-powered-date">posted with <a href="https://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail">西野精治 サンマーク出版 2017年02月    </div><div class="booklink-link2"><div class="shoplinkrakuten"><a href="https://hb.afl.rakuten.co.jp/hgc/1e3a2654.1f6d69f4.1e3a2655.66c60894/yomereba_main_202012291716487218?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F14657717%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" rel="nofollow" >楽天ブックスで探す</a></div><div class="shoplinkrakukobo"><a href="http://hb.afl.rakuten.co.jp/hgc/1e3a2654.1f6d69f4.1e3a2655.66c60894/yomereba_main_202012291716487218?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2Frk%2Fdc4b51ee4b033a258c1bf450970d8f8f%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F" target="_blank" rel="nofollow" >楽天koboで探す</a></div><div class="shoplinkamazon"><a href="https://www.amazon.co.jp/exec/obidos/asin/4763136011/hinopinblog-22/" target="_blank" rel="nofollow" >Amazonで探す</a></div><div class="shoplinkkindle"><a href="https://www.amazon.co.jp/gp/search?keywords=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89%E5%BC%8F%E6%9C%80%E9%AB%98%E3%81%AE%E7%9D%A1%E7%9C%A0&__mk_ja_JP=%83J%83%5E%83J%83i&url=node%3D2275256051&tag=hinopinblog-22" target="_blank" rel="nofollow" >Kindleで探す</a></div>                              	  	  	  	  	</div></div><div class="booklink-footer"></div></div></div>
+

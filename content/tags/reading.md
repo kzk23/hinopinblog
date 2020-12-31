@@ -1,5 +1,5 @@
 ---
 name: reading
 description: 読書は一番効率の良い知識のインプット方法だと思っています。
-img: https://drive.google.com/uc?export=view&id=1lspATGIg6IiGnSGI-VWztgg-wxq2BdCH
+img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292037/hinopin-blog/reading_ylldhz.webp
 ---

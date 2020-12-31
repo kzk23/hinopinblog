@@ -47,6 +47,8 @@
               class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover rounded-md"
               :src="article.img"
               :alt="article.alt"
+              decoding="async"
+              loading="lazy"
             />
 
             <div

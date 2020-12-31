@@ -1,12 +1,12 @@
 ---
 title: hinopinvlog#27
 description: コキア目当てでびわ湖の見える丘に行ったものの...
-img: https://drive.google.com/uc?export=view&id=135-kJPAkG8HKFj4UgFO72O5uCgzr6ICA
+img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292038/hinopin-blog/vlog27_fxz8ac.webp
 alt: vlog27
 author: 
   name: hinopin
   bio: 好奇心が旺盛で色んなことに興味が沸きます。知識をインプットすることが好きなのですが逆にアウトプットすることが苦手なのでアウトプットする場としてこのBlogを始めました。
-  img: https://drive.google.com/uc?export=view&id=1y0STLOe9L05lPE8qNHxbV5O1OMzsyW_M
+  img: https://res.cloudinary.com/hinopin/image/upload/f_auto,q_auto/v1609292036/hinopin-blog/auther_hinopin_wpmkll.webp
 tags: 
   - vlog
 ---
